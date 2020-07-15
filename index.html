@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<script type="text/javascript">
+	function fibo(){
+		var a = 1;
+		var b = 1;
+		var pos =0
+		num = parseInt(document.getElementById("numero").value);
+		while(num > a && num > b){
+			if(a < b){
+				a = a + b;
+			}
+			else{
+				b = b + a;
+			}
+			pos++;
+		}
+		pos=pos+1
+		if(num == a || num == b){
+			var y =-1;
+			var z =1;
+			for(var i=0;i<(pos+1);i++){
+				w=y+z;
+				y=z
+				aux=z
+				z=w
+			}
+			document.getElementById("resultadoa").innerHTML = w;
+			document.getElementById("resultadob").innerHTML = y;
+			document.getElementById("valor_num").innerHTML = num;
+			document.getElementById("valor_a").innerHTML = w;
+			document.getElementById("dividido1").innerHTML = num / w;
+			document.getElementById("valor_a2").innerHTML = w;
+			document.getElementById("valor_b2").innerHTML = y;
+			document.getElementById("dividido2").innerHTML = w / y;
+
+
+		}
+		else{
+			alert("no pertenece a fibonaca");
+		}
+
+	}
+</script>
+<body>
+	<div class="menu">
+		<ul>
+			<li><a href="#inic">Inicio</a></li>
+			<li><a href="#Resumen">Resumen</a></li>
+			<li><a href="#Problema">Problema</a></li>
+			<li><a href="#Solucion">Solucion</a></li>
+		</ul>
+	</div>
+	<a name="inic"></a>
+	<header>
+		<h1> El Hombre Que Calculaba <br> Capitulo XXIV</h1>
+	</header>
+	<div class="container">
+		<div class="mensaje">
+			<p>
+				En el cual Beremís, por medio de fórmulas, calcula la belleza de una joven.
+			</p>
+			<p>
+				La división áurea. Cómo se determina, sin error, el valor numérico de la Belleza.
+			</p>
+		</div>
+		<br>
+		<br>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Z6DVzCjqG5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<br>
+		<div class="centro">
+			
+			<a name="Resumen"></a>
+			<article>
+				<h2>Resumen</h2>
+				<p>
+					En este capitulo se habla de cómo con la matemática se podía calcular la belleza de una mujer, ya que Hassan quería casarse con una bella joven pero tenia miedo de que ella no tuviera , entonces quiso recurrir a la ciencia de la matemática para calcular la belleza de esta dama gracias a la geometría podían calcular si era hermosa o fea por sus formas perfectas ya con esto era innecesario para el novio ya que con una media docena de medidas y una aplicación de ellas en las formulas matemáticas de belleza pero para poder calcular estas medidas las tomaron al interior del ¨harem¨ por una ¨catbet¨asi con esta ayuda las medidas fueron entregadas al pretendiente así calculando la belleza de la joven y llegaron a la conclusión de que la hija del mercader ABul –Lahabe la joven Zarai era tan bella como la décima tercera Hurí del cielo de Alah. <br>
+					Pero gracias al algebra se podía llegar a este resultado y se podía calcular de un modo simple
+				</p>
+		
+				<p>
+					Dada cierta magnitud AB (representada en este caso por un segmento de recta), podemos dividirla al medio, o en dos partes desiguales. La división en dos partes desiguales puede ser hecha, es claro, de una infinidad de maneras diferentes.
+				</p>
+				<br>
+		
+				<img src="img/plan2.jpg" alt="">
+				<br>
+		
+				<p>
+					Para así dividir la forma simpática en 2 formas iguales Esa división corresponde a la forma simpática que pueden presentar las dos partes desiguales. Podemos formular la siguiente regla: “Para que un todo dividido en dos partes desiguales parezca hermoso desde el punto de vista de la forma, debe presentar entre la parte menor y la mayor la misma relación que entre ésta y el todo.”
+				</p>
+		
+				
+		
+				<p>
+					Este es el rostro matemáticamente hermoso ya que la linea C de los ojos divide la linea total de AB en medida y extrema razon.despues con el tiempo algunos matemáticos se dieron cuenta de la expresión que existía gracias a los romanos la cual era la la divina proporcion¨ ya que en cualquier obra esta se divide en general, la medida total del libro en media y extrema razón.
+				</p>
+				<div class="fotos">
+					<ul>
+						<li><img src="img/plan 3.jpg" alt=""></li>
+						<li><img src="img/plan 4.jpg" alt=""></li>
+					</ul>
+				</div>
+				<p>
+					Esta definición es observada y admirada en las fachadas de los edificios que se distinguen por tener una perfección total así con esta herramienta se puede calcular la perfección de lo bello de un objeto obra o pintura o persona.
+				</p>
+			</article>
+			<a name="Problema"></a>
+			<article>
+				<h2>Problema</h2>
+				<h2>Qué es la proporción áurea y su historia</h2>
+				<p>
+					Si recordamos la historia en busca del concepto de divina proporción.  Leonardo Pisano, también conocido como Fibonacci, fue un famoso matemático de Italia  que se dedicó a divulgar  por Europa el sistema de numeración árabe (1, 2, 3…) con base decimal y con un valor nulo (el cero) en su Libro del ábaco en 1202.
+				</p>
+				<p>
+					Pero, el gran descubrimiento de este matemático fue la Sucesión de Fibonacci que, posteriormente, dio lugar a la proporción áurea en arte.
+				</p>
+				<p>
+					<b>¿Qué es la Sucesión de Fibonacci?…</b> Se trata de una serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc. Es una serie infinita en la que la suma de dos números consecutivos siempre da como resultado el siguiente número (1+1=2; 13+21=34). La relación que existe entre cada pareja de números consecutivos (es decir, si dividimos cada número entre su anterior) se aproxima al número áureo (1,618034).
+				</p>
+				<br>
+				<img src="img/numero-de-oro-phi-669x193.jpg" alt="">
+				<br>
+			</article>
+		</div>
+		<a name="Solucion"></a>
+		<div class="java">
+			<h2>Solucion</h2>
+			<br>
+			<div class="fotooss">
+				<ul>
+					<li><img src="img/Captura de pantalla (16).png" alt=""></li>
+					<li><img src="img/Captura de pantalla (19).png" alt=""></li>
+				</ul>
+			</div>
+			<br>
+			<p>Introdusca un numero <b>ojo deve ser un numero fibonacci</b> <br>y le mostraremos los valores de a y b.</p>
+			<div class="form">
+				<input type="number" id="numero" placeholder="Numero">
+				<button onclick="fibo()">Calcular</button>
+			</div>
+			<br>		
+			<p>	El balor de <b>a</b> es: <span id="resultadoa"></span>  <br>  porque: <span id="valor_num"></span>  dividido entre:  <span id="valor_a"></span>  es: <span id="dividido1"></span>   que se aproxima al número áureo <b>(1,618034)</b>.</p>
+
+			<p>	El balor de <b>b</b> es: <span id="resultadob"></span>  <br>  porque: <span id="valor_a2"></span>   dividido entre:  <span id="valor_b2"></span> es: <span id="dividido2"></span>   que se aproxima al número áureo <b>(1,618034)</b>.</p>
+			<br>
+			<p>
+				usa una calculadora online: <a href="https://es.calcuworld.com/calculadoras-matematicas/calculadora-de-proporciones-aureas/" target="_blanck">Calculator</a>
+			</p>
+			<br>
+			<br>
+		</div>	
+	</div>
+	 <footer>
+            <div class="footer">
+                &copy; 2020, <b>Jorge Yujra Chacolla. </b>Todos los derechos reservados
+            </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,283 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #1C3B4F;
+	margin: 0px;
+	width: 100%;
+	text-align: justify;
+}
+header{
+	width: 100%;
+	background-color: #1C3B4F;
+}
+header h1{
+	color: #ffffff;
+	font-size: 50px;
+	text-align: center;
+	font-family: Verdana;
+	padding-top: 80px;
+}
+
+iframe{
+	display: block;
+	margin: 0px auto;
+	width: 600px;
+	border-radius: 15px;
+}
+
+/***   PARA EL MENUUU***/
+
+.menu{
+	width: 100%;
+	background-color: #252932;
+	overflow: hidden;
+	position: fixed;
+
+}
+.menu li {
+	display: inline-block;
+	list-style: none;
+	padding: 15px 5px 15px 0px;
+	margin-left: 20px;
+
+}
+.menu a{
+	float: left;
+	text-align: center;
+	padding: 10px 20px;
+	color: #f2f2f2;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: normal;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+.menu a:hover{
+	background-color: #2F919F;
+	border-radius: 50px;	
+}
+.container{
+	margin-right: 70px;
+	margin-left: 70px;	
+}
+.container h2{
+	padding: 10px 0;
+	margin: 5px 0;
+	color: #E03D3D;
+	font-family: cursive;
+	border-bottom-color: #E03D3D;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-color: #E03D3D;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.container p{
+	color: #fff;
+	padding: 10px 0;
+	text-align: justify;
+	word-spacing: 2px;
+	font-size: 15px;
+	font-family: Verdana;
+}
+img{
+	width: 300px;
+	display: block;
+	margin: 0px auto;
+}
+.container .centro .fotos{
+	width: 100%;
+	padding: 10px 0;
+	margin: 0;
+}
+.container .centro .fotos ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.container .centro .fotos ul li{
+	list-style: none;
+	width: 230px;
+	height: 300px;
+	min-width: 150px;
+	min-height: 100px;
+	padding: 10px;
+	flex-grow: 1;
+}
+.container .centro .fotos ul li img{
+	width: 70%;
+	height: 100%;
+	border-radius: 8px;
+}
+.container .java .fotooss{
+	width: 100%;
+	padding: 10px 0;
+	margin: 0;
+}
+.container .java .fotooss ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.container .java .fotooss ul li{
+	list-style: none;
+	width: 230px;
+	height: 300px;
+	min-width: 150px;
+	min-height: 100px;
+	padding: 10px;
+	flex-grow: 1;
+}
+.container .java .fotooss ul li img{
+	width: 70%;
+	height: 100%;
+	border-radius: 8px;
+}
+.container .centro img{
+	width: 450px;
+	border-radius: 10px;
+}
+.mensaje p{
+	text-align: center;
+	font-size: 20px;
+	color: #C5CB27;
+}
+/***** ------------ Estilos para javascrip----*/
+.java{
+	width: 100%;
+	padding: 10px 0;
+	margin: 0;
+}
+.java .form input{
+	background-color: #939292;
+	margin-top: 5px;
+	padding: 10px;
+	font-size: 1.3rem;
+	border-color: #C5CB27;
+	border-radius: 10px;
+	border-collapse: collapse;
+}
+.java .form button{
+	background: linear-gradient(50deg, #1E1E1F, #C5CB27);
+	font-size: 1.5rem;
+	color: #ccc;
+	font-family: Verdana;
+	border-radius: 10px;
+	transition: all 300ms;
+}
+button:hover{
+	background: linear-gradient(50deg, #137665, #565B5B);
+	transform: translateY(10px);
+	box-shadow: 0px 30px 0px -10px #676262;
+}
+.java p{
+	font-size: 20px;
+	color: #C5CB27;
+	font-family: Verdana;
+}
+.java p b{
+	font-size: 27px;
+	font-family: Verdana;
+	color: #F29718;
+}
+.java span{
+	font-size: 27px;
+	color: #F29718;
+}
+.java a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #37EF19;
+}
+.java a:hover{
+	color: #6CF8F0;
+}
+.footer{
+	background-color: #393E41;
+	margin: 0px auto;
+	padding: 10px 0px;
+	color: #FFFFFF;
+	font-size: 1rem;
+	text-align: center;
+	width: 99.5%;
+}
+@media screen and (max-width: 700px){
+	
+	header h1{
+		color: red;
+		font-size: 2rem;
+	}
+	iframe{
+		width: 96%;
+		margin: 0px auto;
+		border-radius: 20px;
+	}
+	.menu{
+		width: 100%;
+	}
+	.menu a{
+		padding: 5px;
+		font-size: 1rem;
+	}
+
+	.menu li{
+		padding: 10px;
+		margin: auto;
+	}
+	.container{
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	.mensaje p{
+		font-size: 15px;
+	}
+	.container .centro img{
+		width: 95%;
+	}
+	.container .centro .fotos ul li img{
+		width: 100%;
+	}
+	.container .java .fotooss ul li img{
+		width: 100%;
+	}
+	.java .form input{
+		
+		margin: 0px auto;
+	}
+	.java .form button{
+		margin-top: 8px;
+	}
+	.java p{
+		font-size: 17px;
+	}
+	.java p b{
+		font-size: 22px;
+	}
+	.java span{
+		font-size: 22px;
+	}
+	.java a{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 450px){
+	.java .form input{
+		width: 80%;
+		margin: 0px auto;
+	}
+	header h1{
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 350px){
+	.menu a{
+		padding: 0px;
+		font-size: 0.8rem;
+	}
+}
